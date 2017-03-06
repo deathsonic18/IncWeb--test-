@@ -20,8 +20,8 @@
         if(y < x) {{console.log("this is invaild y < x "+x );return 0;};}       //if higher < lower {return 0;}
         for (i = x+1; i < y; i++)                                               //incrementation;
         {
-          i = i+z-1;                                                            
-          if(i > y) {console.log("this is i > y "+i);return x; break;};         //if lower > limt {return i}
+          i = i+z-1;
+          if(i > y) {console.log("this is x > y "+i);return x; break;};         //if lower > limt {return i}
           console.log(i);                                                       //displys sum
           if(y < i) {console.log("this is y < x : "+i );return 0;};             //if upper < lower{return 0}
           sum = i+i;
