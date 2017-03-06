@@ -34,7 +34,7 @@
         }
 
     }
-    ponsify(-250,60,5);                                                       //send parameters to function (lower,limit,step);
+    ponsify(5,6000,2);                                                       //send parameters to function (lower,limit,step);
 
 
 
