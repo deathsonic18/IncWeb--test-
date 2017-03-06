@@ -16,8 +16,6 @@
         console.log("Hello world!");
         console.log(x,y,z);                                                     //displays lower, limit & step figures
 
-        lastNumber =0;
-        nextNumber =0;
         // if(x < 0) {console.log("this is i is negative "+x);return 0};        //if lower is negative{break}
         if(y < x) {{console.log("this is invaild y < x "+x );return 0;};}       //if higher < lower {return 0;}
         for (i = x+1; i < y; i++)                                               //incrementation;
