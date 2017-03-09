@@ -9,6 +9,8 @@
 
     function ponsify(x, y, z,getTestNumber)                                     //lower,limit,steps,testnumber
     {
+      console.log("-----");
+
       console.log("This is test number : " +getTestNumber);
 
       if(x==y) {console.log("this is x == y : "+x );return null;}
@@ -24,8 +26,6 @@
         getReturn(i,y,z);                                                     //sends values to getReturn function
       }
       sumReturn(sum);
-      console.log("-----");
-
     }
 
     // required to export for tests
@@ -37,8 +37,8 @@
     function getReturn(getX,getY,getZ)                                          //gets returns for every epoch
     {
       // console.log("returnX : " +getX );
-      // console.log("returnX : " +getY );
-      // console.log("returnX : " +getZ );
+      // console.log("returnY : " +getY );
+      // console.log("returnZ : " +getZ );
 
       return getX,getY,getZ;
     }
