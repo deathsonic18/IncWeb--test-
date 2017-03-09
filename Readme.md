@@ -1,6 +1,6 @@
 # Ponsify 
 
-1.0 - process' vars intemenation with the use of steps. certain rules applied for results. 
+1.0 - creates number incrementation with the use of steps. certain rules applied for results. 
 
 1.1 - sum bug fixed
 
