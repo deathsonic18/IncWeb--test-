@@ -20,7 +20,7 @@
       {
         i = i+z-1;
         if(i > y) {console.log("this is x > y "+i);return x; break;};         //if lower > limt {return i}
-        console.log(i);                                                       //displys sum
+        console.log(i);                                                       //displys number incrementation poistion
         if(y < i) {console.log("this is y < x : "+i );return 0;};             //if upper < lower{return 0}
         var sum = (i * (i+1)) / 2-1;                                          //calc's sum
         getReturn(i,y,z);                                                     //sends values to getReturn function
